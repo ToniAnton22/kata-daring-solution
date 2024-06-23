@@ -17,7 +17,7 @@ public class GildedRose
         {
             if (Items[i].SellIn > 0)
             {
-                if (Items[i].Quality < 50)
+                if (Items[i].Quality <= 50)
                 {
                     if (Items[i].Name.Contains("Aged Brie"))
                     {

@@ -35,8 +35,7 @@ public class Program
                 Quality = 49
             },
            
-            new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6},
-           
+            new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
         };
 
         var app = new GildedRose(items);
