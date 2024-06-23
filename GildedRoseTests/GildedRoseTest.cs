@@ -7,7 +7,7 @@ namespace GildedRoseTests;
 public class GildedRoseTest
 {
     [Fact]
-    public void Foo()
+    public void UpdateQuality_ConjuredItems_CheckQualityDegrading()
     {
         IList<Item> Items = new List<Item> { new Item { Name = "Conjured Mana Cake", SellIn = 3, Quality = 6 } };
         GildedRose app = new GildedRose(Items);

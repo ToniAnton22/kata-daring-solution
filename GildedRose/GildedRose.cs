@@ -27,7 +27,7 @@ public class GildedRose
                     
                     if (Items[i].Name.Contains("Conjured"))
                     {
-                        Items[i].Quality = Items[i].Quality - 1;   
+                        Items[i].Quality = Items[i].Quality - 2;   
                     }
                 }
 
@@ -80,7 +80,7 @@ public class GildedRose
                             
                             if (Items[i].Name.Contains("Conjured"))
                             {
-                                Items[i].Quality = Items[i].Quality - 1;
+                                Items[i].Quality = Items[i].Quality - 2;
                             }   
                         }
                     }
