@@ -35,7 +35,11 @@ public class Program
                 Quality = 49
             },
            
-            new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6}
+            new Item {Name = "Conjured Mana Cake", SellIn = 3, Quality = 6},
+            // Uncomment these items to test different scnearios
+            // new Item {Name = "Conjured Cheesburger", SellIn = 0, Quality = 49},
+            // new Item {Name = "Backstage passes to a Taylor Swift concert", SellIn = 12, Quality = 80},
+            // new Item {Name = "Shield of Fate", SellIn = 10, Quality = -10},
         };
 
         var app = new GildedRose(items);
